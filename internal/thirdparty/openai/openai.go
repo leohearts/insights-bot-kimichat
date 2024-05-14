@@ -182,6 +182,7 @@ func (c *OpenAIClient) SummarizeWithQuestionsAsSimplifiedChinese(ctx context.Con
 						"接下来请你完成我所要求的任务。",
 				},
 			},
+			MaxTokens: 4096,
 		},
 	)
 	if err != nil {
@@ -236,6 +237,7 @@ func (c *OpenAIClient) SummarizeOneChatHistory(ctx context.Context, llmFriendlyC
 						"请你帮我总结一下。",
 				},
 			},
+			MaxTokens: 4096,
 		},
 	)
 	if err != nil {
@@ -289,6 +291,7 @@ func (c *OpenAIClient) SummarizeAny(ctx context.Context, content string) (*opena
 					Content: sb.String(),
 				},
 			},
+			MaxTokens: 4096,
 		},
 	)
 	if err != nil {
@@ -343,6 +346,7 @@ func (c *OpenAIClient) SummarizeChatHistories(ctx context.Context, llmFriendlyCh
 				Role:    openai.ChatMessageRoleSystem,
 				Content: sb.String(),
 			}},
+			MaxTokens: 4096,
 		},
 	)
 	if err != nil {

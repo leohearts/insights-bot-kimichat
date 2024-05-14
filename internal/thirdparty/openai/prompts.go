@@ -44,7 +44,7 @@ var ChatHistorySummarizationPrompt = lo.Must(template.New("chat histories summar
 {{ .ChatHistory }}
 """
 
-You are a expert in summarizing the refined outlines from documents and dialogues. Please read through the provided chat history and identify the 1-10 distinct discussion topics that discussed and talked about.
+You are a expert in summarizing the refined outlines from documents and dialogues. Please read through the provided chat history and identify the 1-5 distinct discussion topics that discussed and talked about.
 
 Output topics correspond the following JSON Schema types, and output the result in language {{ .Language }}:"""
 {"$schema":"http://json-schema.org/draft-07/schema#","title":"Chat Histories Summarization Schema","type":"array","items":{"type":"object","properties":{"topicName":{"type":"string","description":"The title, brief short title of the topic that talked, discussed in the chat history."},"sinceId":{"type":"number","description":"The id of the message from which the topic initially starts."},"participants":{"type":"array","description":"The list of the names of the participated users in the topic.","items":{"type":"string"}},"discussion":{"type":"array","description":"The list of the points that discussed during the topic.","items":{"type":"object","properties":{"point":{"type":"string","description":"The key point that talked, expressed, mentioned, or discussed during the topic."},"keyIds":{"type":"array","description":"The list of the ids of the messages that contain the key point.","items":{"type":"number"}}},"required":["point","keyIds"]},"minItems": 1,"maxItems": 5},"conclusion":{"type":"string","description":"The conclusion of the topic, optional."}},"required":["topicName","sinceId","participants","discussion"]}}
@@ -54,4 +54,4 @@ For example:"""
 [{"topicName":"Most Important Topic 1","sinceId":123456789,"participants":["John","Mary"],"discussion":[{"point":"Most relevant key point","keyIds":[123456789,987654321]}],"conclusion":"Optional brief conclusion"},{"topicName":"Most Important Topic 2","sinceId":987654321,"participants":["Bob","Alice"],"discussion":[{"point":"Most relevant key point","keyIds":[987654321]}],"conclusion":"Optional brief conclusion"}]
 """
 
-Please note the topics may be discussed in parallel, so please consider the relevant keywords that appeared across the chat histories. Summarize the distinct topics from the chat history. For each topic, extract the most relevant 1-5 points and key message IDs. Be very concise and focused on the key essence of each topic.`))
+Please note the topics may be discussed in parallel, so please consider the relevant keywords that appeared across the chat histories. Summarize the distinct topics from the chat history. For each topic, extract the most relevant 1-2 points and ONLY ONE key message IDs. Be very concise and focused on the key essence of each topic. You must limit your output within 200 words per topic.`))

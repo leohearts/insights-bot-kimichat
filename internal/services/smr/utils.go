@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/nekomeowww/insights-bot/pkg/i18n"
-	"github.com/nekomeowww/insights-bot/pkg/types/bot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/i18n"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/bot"
 	"github.com/samber/lo"
 )
 

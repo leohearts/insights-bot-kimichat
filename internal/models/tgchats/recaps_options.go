@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/nekomeowww/insights-bot/ent"
-	"github.com/nekomeowww/insights-bot/ent/telegramchatrecapsoptions"
-	"github.com/nekomeowww/insights-bot/pkg/types/tgchat"
+	"github.com/leohearts/insights-bot-kimichat/ent"
+	"github.com/leohearts/insights-bot-kimichat/ent/telegramchatrecapsoptions"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/tgchat"
 	"go.uber.org/zap"
 )
 

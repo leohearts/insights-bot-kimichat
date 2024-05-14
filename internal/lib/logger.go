@@ -3,8 +3,8 @@ package lib
 import (
 	"fmt"
 
-	"github.com/nekomeowww/insights-bot/internal/configs"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
 	"github.com/sirupsen/logrus"
 	"go.uber.org/fx"
 	"go.uber.org/zap/zapcore"

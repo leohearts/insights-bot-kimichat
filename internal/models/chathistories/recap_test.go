@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nekomeowww/insights-bot/internal/thirdparty/openai"
+	"github.com/leohearts/insights-bot-kimichat/internal/thirdparty/openai"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

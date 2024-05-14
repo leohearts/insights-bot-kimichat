@@ -11,7 +11,7 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/imroc/req/v3"
-	"github.com/nekomeowww/insights-bot/pkg/opengraph"
+	"github.com/leohearts/insights-bot-kimichat/pkg/opengraph"
 	"github.com/nekomeowww/xo"
 	"github.com/samber/lo"
 )

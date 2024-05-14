@@ -1,6 +1,6 @@
 package recap
 
-import "github.com/nekomeowww/insights-bot/pkg/types/tgchat"
+import "github.com/leohearts/insights-bot-kimichat/pkg/types/tgchat"
 
 type SelectHourCallbackQueryData struct {
 	Hour      int64                    `json:"hour"`

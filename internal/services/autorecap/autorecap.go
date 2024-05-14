@@ -16,15 +16,15 @@ import (
 	"go.uber.org/ratelimit"
 	"go.uber.org/zap"
 
-	"github.com/nekomeowww/insights-bot/ent"
-	"github.com/nekomeowww/insights-bot/internal/datastore"
-	"github.com/nekomeowww/insights-bot/internal/models/chathistories"
-	"github.com/nekomeowww/insights-bot/internal/models/tgchats"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
-	"github.com/nekomeowww/insights-bot/pkg/types/telegram"
-	"github.com/nekomeowww/insights-bot/pkg/types/tgchat"
-	"github.com/nekomeowww/insights-bot/pkg/types/timecapsules"
+	"github.com/leohearts/insights-bot-kimichat/ent"
+	"github.com/leohearts/insights-bot-kimichat/internal/datastore"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/chathistories"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/tgchats"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/telegram"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/tgchat"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/timecapsules"
 )
 
 type NewAutoRecapParams struct {

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/nekomeowww/insights-bot/pkg/opengraph"
+	"github.com/leohearts/insights-bot-kimichat/pkg/opengraph"
 	"github.com/samber/lo"
 	"github.com/stretchr/testify/assert"
 )

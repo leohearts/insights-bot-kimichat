@@ -1,4 +1,4 @@
-module github.com/nekomeowww/insights-bot
+module github.com/leohearts/insights-bot-kimichat
 
 go 1.22
 

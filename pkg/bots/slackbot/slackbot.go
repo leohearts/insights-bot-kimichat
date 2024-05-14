@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/nekomeowww/insights-bot/internal/configs"
-	"github.com/nekomeowww/insights-bot/pkg/bots/slackbot/services"
-	"github.com/nekomeowww/insights-bot/pkg/healthchecker"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/slackbot/services"
+	"github.com/leohearts/insights-bot-kimichat/pkg/healthchecker"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
 	"github.com/samber/lo"
 	"go.uber.org/zap"
 

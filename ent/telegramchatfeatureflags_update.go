@@ -10,9 +10,9 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/nekomeowww/insights-bot/ent/internal"
-	"github.com/nekomeowww/insights-bot/ent/predicate"
-	"github.com/nekomeowww/insights-bot/ent/telegramchatfeatureflags"
+	"github.com/leohearts/insights-bot-kimichat/ent/internal"
+	"github.com/leohearts/insights-bot-kimichat/ent/predicate"
+	"github.com/leohearts/insights-bot-kimichat/ent/telegramchatfeatureflags"
 )
 
 // TelegramChatFeatureFlagsUpdate is the builder for updating TelegramChatFeatureFlags entities.

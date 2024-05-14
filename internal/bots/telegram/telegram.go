@@ -7,14 +7,14 @@ import (
 
 	"go.uber.org/fx"
 
-	"github.com/nekomeowww/insights-bot/internal/bots/telegram/handlers"
-	"github.com/nekomeowww/insights-bot/internal/bots/telegram/middlewares"
-	"github.com/nekomeowww/insights-bot/internal/configs"
-	"github.com/nekomeowww/insights-bot/internal/datastore"
-	"github.com/nekomeowww/insights-bot/internal/models/chathistories"
-	"github.com/nekomeowww/insights-bot/internal/models/tgchats"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/internal/bots/telegram/handlers"
+	"github.com/leohearts/insights-bot-kimichat/internal/bots/telegram/middlewares"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/internal/datastore"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/chathistories"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/tgchats"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
 )
 
 func NewModules() fx.Option {

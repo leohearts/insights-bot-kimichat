@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/types/redis"
-	"github.com/nekomeowww/insights-bot/pkg/types/telegram"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/redis"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/telegram"
 	"github.com/samber/lo"
 	"go.uber.org/zap"
 )

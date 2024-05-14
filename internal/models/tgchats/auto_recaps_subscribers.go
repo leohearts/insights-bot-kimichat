@@ -3,8 +3,8 @@ package tgchats
 import (
 	"context"
 
-	"github.com/nekomeowww/insights-bot/ent"
-	"github.com/nekomeowww/insights-bot/ent/telegramchatautorecapssubscribers"
+	"github.com/leohearts/insights-bot-kimichat/ent"
+	"github.com/leohearts/insights-bot-kimichat/ent/telegramchatautorecapssubscribers"
 	"go.uber.org/zap"
 )
 

@@ -3,13 +3,13 @@ package services
 import (
 	"context"
 
-	"github.com/nekomeowww/insights-bot/internal/configs"
-	"github.com/nekomeowww/insights-bot/internal/datastore"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/internal/datastore"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 
-	"github.com/nekomeowww/insights-bot/ent/slackoauthcredentials"
+	"github.com/leohearts/insights-bot-kimichat/ent/slackoauthcredentials"
 )
 
 type NewServicesParam struct {

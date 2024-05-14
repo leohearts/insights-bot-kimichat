@@ -8,11 +8,11 @@ import (
 	"github.com/samber/lo"
 	"go.uber.org/zap"
 
-	"github.com/nekomeowww/insights-bot/internal/services/smr"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/i18n"
-	"github.com/nekomeowww/insights-bot/pkg/types/bot"
-	types "github.com/nekomeowww/insights-bot/pkg/types/smr"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/smr"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/i18n"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/bot"
+	types "github.com/leohearts/insights-bot-kimichat/pkg/types/smr"
 )
 
 func (h *Handlers) Handle(c *tgbot.Context) (tgbot.Response, error) {

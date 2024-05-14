@@ -5,15 +5,15 @@
 <h1 align="center">insights-bot</h1>
 
 <p align="center">
-  <img src="https://github.com/nekomeowww/insights-bot/actions/workflows/ci.yml/badge.svg">
-  <img src="https://github.com/nekomeowww/insights-bot/actions/workflows/build.yml/badge.svg" />
-  <img src="https://github.com/nekomeowww/insights-bot/actions/workflows/release-build.yml/badge.svg" />
-  <a href="https://goreportcard.com/badge/github.com/nekomeowww/insights-bot"><img src="https://goreportcard.com/badge/github.com/nekomeowww/insights-bot" /></a>
-  <a href="https://hub.docker.com/r/nekomeowww/insights-bot">
-    <img src="https://img.shields.io/docker/pulls/nekomeowww/insights-bot" />
+  <img src="https://github.com/leohearts/insights-bot-kimichat/actions/workflows/ci.yml/badge.svg">
+  <img src="https://github.com/leohearts/insights-bot-kimichat/actions/workflows/build.yml/badge.svg" />
+  <img src="https://github.com/leohearts/insights-bot-kimichat/actions/workflows/release-build.yml/badge.svg" />
+  <a href="https://goreportcard.com/badge/github.com/leohearts/insights-bot-kimichat"><img src="https://goreportcard.com/badge/github.com/leohearts/insights-bot-kimichat" /></a>
+  <a href="https://hub.docker.com/r/leohearts/insights-bot-kimichat">
+    <img src="https://img.shields.io/docker/pulls/leohearts/insights-bot-kimichat" />
   </a>
-  <a href="https://hub.docker.com/r/nekomeowww/insights-bot">
-    <img src="https://img.shields.io/docker/v/nekomeowww/insights-bot" />
+  <a href="https://hub.docker.com/r/leohearts/insights-bot-kimichat">
+    <img src="https://img.shields.io/docker/v/leohearts/insights-bot-kimichat" />
   </a>
 </p>
 
@@ -155,11 +155,11 @@ By sending `/recap_forwarded_start` command, the bot will start to capture the f
 You will have to clone this repository and then build the binary by yourself.
 
 ```shell
-git clone https://github.com/nekomeowww/insights-bot
+git clone https://github.com/leohearts/insights-bot-kimichat
 ```
 
 ```shell
-go build -a -o "build/insights-bot" "github.com/nekomeowww/insights-bot/cmd/insights-bot"
+go build -a -o "build/insights-bot" "github.com/leohearts/insights-bot-kimichat/cmd/insights-bot"
 ```
 
 Then copy the `.env.example` file to `build` directory and rename it to `.env`, and then fill in the environment variables.
@@ -180,7 +180,7 @@ $ ./insights-bot
 ### Run with docker
 
 ```shell
-docker run -it --rm -e TELEGRAM_BOT_TOKEN=<Telegram Bot API Token> -e OPENAI_API_SECRET=<OpenAI API Secret Key> -e DB_CONNECTION_STR="<PostgresSQL connection URL>" insights-bot ghcr.io/nekomeowww/insights-bot:latest
+docker run -it --rm -e TELEGRAM_BOT_TOKEN=<Telegram Bot API Token> -e OPENAI_API_SECRET=<OpenAI API Secret Key> -e DB_CONNECTION_STR="<PostgresSQL connection URL>" insights-bot ghcr.io/leohearts/insights-bot-kimichat:latest
 ```
 
 ### Run with Docker Compose
@@ -188,14 +188,14 @@ docker run -it --rm -e TELEGRAM_BOT_TOKEN=<Telegram Bot API Token> -e OPENAI_API
 Clone this project:
 
 ```shell
-git clone github.com/nekomeowww/insights-bot
+git clone github.com/leohearts/insights-bot-kimichat
 ```
 
 Or only copy or download the necessary `.env.example` and `docker-compose.yml` files (but you will only be able to run the bot with pre-bundled docker image):
 
 ```shell
-curl -O https://raw.githubusercontent.com/nekomeowww/insights-bot/main/.env.example
-curl -O https://raw.githubusercontent.com/nekomeowww/insights-bot/main/docker-compose.yml
+curl -O https://raw.githubusercontent.com/leohearts/insights-bot-kimichat/main/.env.example
+curl -O https://raw.githubusercontent.com/leohearts/insights-bot-kimichat/main/docker-compose.yml
 ```
 
 Create your `.env` by making a copy of the contents from `.env.example` file. The .env file should be placed at the root of the project directory next to your `docker-compose.yml` file.
@@ -221,7 +221,7 @@ docker compose --profile local up -d --build
 #### Build with go
 
 ```shell
-go build -a -o "release/insights-bot" "github.com/nekomeowww/insights-bot/cmd/insights-bot"
+go build -a -o "release/insights-bot" "github.com/leohearts/insights-bot-kimichat/cmd/insights-bot"
 ```
 
 #### Build with Docker

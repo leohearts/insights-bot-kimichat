@@ -4,11 +4,11 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/nekomeowww/insights-bot/internal/bots/slack/handlers"
-	"github.com/nekomeowww/insights-bot/internal/configs"
-	"github.com/nekomeowww/insights-bot/pkg/bots/slackbot"
-	"github.com/nekomeowww/insights-bot/pkg/bots/slackbot/services"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/internal/bots/slack/handlers"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/slackbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/slackbot/services"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
 	"go.uber.org/fx"
 )
 

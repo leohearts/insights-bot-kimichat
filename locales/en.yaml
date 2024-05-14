@@ -37,7 +37,7 @@ welcome:
     Questions?
 
     1. Enter /help@{{.Username}} for command information.
-    2. Submit an issue at the <a href="https://github.com/nekomeowww/insights-bot">open-source repository</a> for further details from the developers.
+    2. Submit an issue at the <a href="https://github.com/leohearts/insights-bot-kimichat">open-source repository</a> for further details from the developers.
 
   messageNormalGroup: |
     🤗 Welcome to @{{.Username}}!
@@ -58,7 +58,7 @@ welcome:
     Questions?
 
     1. Consult /help@{{.Username}} for command details.
-    2. Visit our <a href="https://github.com/nekomeowww/insights-bot">GitHub</a> for support.
+    2. Visit our <a href="https://github.com/leohearts/insights-bot-kimichat">GitHub</a> for support.
 
     Enjoy your experience!
 

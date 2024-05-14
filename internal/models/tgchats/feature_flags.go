@@ -7,10 +7,10 @@ import (
 	"github.com/samber/lo"
 	"go.uber.org/zap"
 
-	"github.com/nekomeowww/insights-bot/ent"
-	"github.com/nekomeowww/insights-bot/ent/telegramchatfeatureflags"
-	"github.com/nekomeowww/insights-bot/pkg/types/telegram"
-	"github.com/nekomeowww/insights-bot/pkg/types/timecapsules"
+	"github.com/leohearts/insights-bot-kimichat/ent"
+	"github.com/leohearts/insights-bot-kimichat/ent/telegramchatfeatureflags"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/telegram"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/timecapsules"
 )
 
 func (m *Model) findOneFeatureFlagForGroups(chatID int64, chatTitle string) (*ent.TelegramChatFeatureFlags, error) {

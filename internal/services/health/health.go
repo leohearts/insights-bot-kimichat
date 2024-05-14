@@ -11,14 +11,14 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 
-	"github.com/nekomeowww/insights-bot/internal/datastore"
-	"github.com/nekomeowww/insights-bot/internal/services/autorecap"
-	"github.com/nekomeowww/insights-bot/internal/services/pprof"
-	"github.com/nekomeowww/insights-bot/internal/services/smr"
-	"github.com/nekomeowww/insights-bot/pkg/bots/discordbot"
-	"github.com/nekomeowww/insights-bot/pkg/bots/slackbot"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/internal/datastore"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/autorecap"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/pprof"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/smr"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/discordbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/slackbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
 )
 
 type NewHealthParams struct {

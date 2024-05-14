@@ -11,9 +11,9 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/nekomeowww/insights-bot/ent/internal"
-	"github.com/nekomeowww/insights-bot/ent/logchathistoriesrecap"
-	"github.com/nekomeowww/insights-bot/ent/predicate"
+	"github.com/leohearts/insights-bot-kimichat/ent/internal"
+	"github.com/leohearts/insights-bot-kimichat/ent/logchathistoriesrecap"
+	"github.com/leohearts/insights-bot-kimichat/ent/predicate"
 )
 
 // LogChatHistoriesRecapQuery is the builder for querying LogChatHistoriesRecap entities.

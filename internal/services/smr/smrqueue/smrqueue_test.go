@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/nekomeowww/insights-bot/internal/configs"
-	"github.com/nekomeowww/insights-bot/internal/datastore"
-	"github.com/nekomeowww/insights-bot/internal/lib"
-	"github.com/nekomeowww/insights-bot/pkg/types/bot"
-	types "github.com/nekomeowww/insights-bot/pkg/types/smr"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/internal/datastore"
+	"github.com/leohearts/insights-bot-kimichat/internal/lib"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/bot"
+	types "github.com/leohearts/insights-bot-kimichat/pkg/types/smr"
 )
 
 var testQueue *Queue

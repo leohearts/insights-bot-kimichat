@@ -18,7 +18,7 @@ RUN go mod download
 
 COPY . /app/insights-bot
 
-RUN go build -a -o "release/insights-bot" "github.com/nekomeowww/insights-bot/cmd/insights-bot"
+RUN go build -a -o "release/insights-bot" "github.com/leohearts/insights-bot-kimichat/cmd/insights-bot"
 
 # --- runner ---
 FROM debian as runner

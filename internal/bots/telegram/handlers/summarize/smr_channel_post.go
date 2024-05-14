@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/types/bot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/bot"
 )
 
 func (h *Handlers) HandleChannelPost(c *tgbot.Context) (tgbot.Response, error) {

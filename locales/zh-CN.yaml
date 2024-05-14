@@ -58,7 +58,7 @@ modules:
         如果还有疑问的话可以通过
 
         1. 执行帮助命令 /help@{{.Username}} 来查看支持的命令；
-        2. 前往 Bot 所在的<a href="https://github.com/nekomeowww/insights-bot">开源仓库</a>提交 Issue 问询开发者。
+        2. 前往 Bot 所在的<a href="https://github.com/leohearts/insights-bot-kimichat">开源仓库</a>提交 Issue 问询开发者。
 
         祝你使用愉快！
       messageNormalGroup: |
@@ -80,7 +80,7 @@ modules:
         如果还有疑问的话可以通过
 
         1. 执行帮助命令 /help@{{.Username}} 来查看支持的命令；
-        2. 前往 Bot 所在的<a href="https://github.com/nekomeowww/insights-bot">开源仓库</a>提交 Issue 问询开发者。
+        2. 前往 Bot 所在的<a href="https://github.com/leohearts/insights-bot-kimichat">开源仓库</a>提交 Issue 问询开发者。
 
         祝你使用愉快！
 

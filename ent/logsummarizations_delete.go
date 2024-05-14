@@ -8,9 +8,9 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/nekomeowww/insights-bot/ent/internal"
-	"github.com/nekomeowww/insights-bot/ent/logsummarizations"
-	"github.com/nekomeowww/insights-bot/ent/predicate"
+	"github.com/leohearts/insights-bot-kimichat/ent/internal"
+	"github.com/leohearts/insights-bot-kimichat/ent/logsummarizations"
+	"github.com/leohearts/insights-bot-kimichat/ent/predicate"
 )
 
 // LogSummarizationsDelete is the builder for deleting a LogSummarizations entity.

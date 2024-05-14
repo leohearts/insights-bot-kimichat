@@ -3,10 +3,10 @@ package models
 import (
 	"go.uber.org/fx"
 
-	"github.com/nekomeowww/insights-bot/internal/models/chathistories"
-	"github.com/nekomeowww/insights-bot/internal/models/logs"
-	"github.com/nekomeowww/insights-bot/internal/models/smr"
-	"github.com/nekomeowww/insights-bot/internal/models/tgchats"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/chathistories"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/logs"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/smr"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/tgchats"
 )
 
 func NewModules() fx.Option {

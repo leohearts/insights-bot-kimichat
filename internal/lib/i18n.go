@@ -3,9 +3,9 @@ package lib
 import (
 	"go.uber.org/fx"
 
-	"github.com/nekomeowww/insights-bot/internal/configs"
-	"github.com/nekomeowww/insights-bot/pkg/i18n"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/pkg/i18n"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
 )
 
 type NewI18nParams struct {

@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/nekomeowww/insights-bot/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
 	"github.com/redis/rueidis"
 	"go.uber.org/fx"
 )

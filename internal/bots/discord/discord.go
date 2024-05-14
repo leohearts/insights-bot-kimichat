@@ -2,10 +2,10 @@ package discord
 
 import (
 	"context"
-	"github.com/nekomeowww/insights-bot/internal/bots/discord/listeners"
-	"github.com/nekomeowww/insights-bot/internal/configs"
-	"github.com/nekomeowww/insights-bot/pkg/bots/discordbot"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/internal/bots/discord/listeners"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/discordbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
 	"go.uber.org/fx"
 )
 

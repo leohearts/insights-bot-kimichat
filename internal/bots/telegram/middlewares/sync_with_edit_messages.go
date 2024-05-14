@@ -1,8 +1,8 @@
 package middlewares
 
 import (
-	"github.com/nekomeowww/insights-bot/internal/models/chathistories"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/chathistories"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
 )
 
 func SyncWithEditedMessage(chatHistories *chathistories.Model) func(c *tgbot.Context, next func()) {

@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/nekomeowww/insights-bot/pkg/types/telegram"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/telegram"
 	"github.com/nekomeowww/xo"
 )
 

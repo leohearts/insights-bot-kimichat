@@ -15,9 +15,9 @@ import (
 	goopenai "github.com/sashabaranov/go-openai"
 	"go.uber.org/zap"
 
-	"github.com/nekomeowww/insights-bot/internal/thirdparty/openai"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/types/telegram"
+	"github.com/leohearts/insights-bot-kimichat/internal/thirdparty/openai"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/telegram"
 )
 
 type RecapOutputTemplateInputs struct {

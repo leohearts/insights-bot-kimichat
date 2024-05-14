@@ -10,7 +10,7 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/nekomeowww/insights-bot/ent/feedbacksummarizationsreactions"
+	"github.com/leohearts/insights-bot-kimichat/ent/feedbacksummarizationsreactions"
 )
 
 // FeedbackSummarizationsReactionsCreate is the builder for creating a FeedbackSummarizationsReactions entity.

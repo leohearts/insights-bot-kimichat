@@ -20,10 +20,10 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/nekomeowww/fo"
-	"github.com/nekomeowww/insights-bot/pkg/healthchecker"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
-	"github.com/nekomeowww/insights-bot/pkg/types/redis"
-	"github.com/nekomeowww/insights-bot/pkg/types/telegram"
+	"github.com/leohearts/insights-bot-kimichat/pkg/healthchecker"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/redis"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/telegram"
 	"github.com/nekomeowww/xo"
 	"github.com/nekomeowww/xo/exp/channelx"
 )

@@ -9,9 +9,9 @@ import (
 	"github.com/samber/lo"
 	"go.uber.org/fx"
 
-	"github.com/nekomeowww/insights-bot/pkg/logger"
-	"github.com/nekomeowww/insights-bot/pkg/types/redis"
-	"github.com/nekomeowww/insights-bot/pkg/types/timecapsules"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/redis"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/timecapsules"
 )
 
 type NewAutoRecapTimeCapsuleDiggerParams struct {

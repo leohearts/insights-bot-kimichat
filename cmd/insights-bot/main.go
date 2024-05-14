@@ -7,19 +7,19 @@ import (
 
 	"go.uber.org/fx"
 
-	"github.com/nekomeowww/insights-bot/internal/bots/discord"
-	"github.com/nekomeowww/insights-bot/internal/bots/slack"
-	"github.com/nekomeowww/insights-bot/internal/bots/telegram"
-	"github.com/nekomeowww/insights-bot/internal/configs"
-	"github.com/nekomeowww/insights-bot/internal/datastore"
-	"github.com/nekomeowww/insights-bot/internal/lib"
-	"github.com/nekomeowww/insights-bot/internal/models"
-	"github.com/nekomeowww/insights-bot/internal/services"
-	"github.com/nekomeowww/insights-bot/internal/services/autorecap"
-	"github.com/nekomeowww/insights-bot/internal/services/health"
-	"github.com/nekomeowww/insights-bot/internal/services/pprof"
-	"github.com/nekomeowww/insights-bot/internal/services/smr"
-	"github.com/nekomeowww/insights-bot/internal/thirdparty"
+	"github.com/leohearts/insights-bot-kimichat/internal/bots/discord"
+	"github.com/leohearts/insights-bot-kimichat/internal/bots/slack"
+	"github.com/leohearts/insights-bot-kimichat/internal/bots/telegram"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/internal/datastore"
+	"github.com/leohearts/insights-bot-kimichat/internal/lib"
+	"github.com/leohearts/insights-bot-kimichat/internal/models"
+	"github.com/leohearts/insights-bot-kimichat/internal/services"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/autorecap"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/health"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/pprof"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/smr"
+	"github.com/leohearts/insights-bot-kimichat/internal/thirdparty"
 )
 
 func main() {

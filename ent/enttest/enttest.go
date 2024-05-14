@@ -5,12 +5,12 @@ package enttest
 import (
 	"context"
 
-	"github.com/nekomeowww/insights-bot/ent"
+	"github.com/leohearts/insights-bot-kimichat/ent"
 	// required by schema hooks.
-	_ "github.com/nekomeowww/insights-bot/ent/runtime"
+	_ "github.com/leohearts/insights-bot-kimichat/ent/runtime"
 
 	"entgo.io/ent/dialect/sql/schema"
-	"github.com/nekomeowww/insights-bot/ent/migrate"
+	"github.com/leohearts/insights-bot-kimichat/ent/migrate"
 )
 
 type (

@@ -9,7 +9,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/nekomeowww/insights-bot/ent/slackoauthcredentials"
+	"github.com/leohearts/insights-bot-kimichat/ent/slackoauthcredentials"
 )
 
 // SlackOAuthCredentials is the model entity for the SlackOAuthCredentials schema.

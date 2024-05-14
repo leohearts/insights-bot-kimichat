@@ -5,15 +5,15 @@
 <h1 align="center">insights-bot</h1>
 
 <p align="center">
-  <img src="https://github.com/nekomeowww/insights-bot/actions/workflows/ci.yml/badge.svg">
-  <img src="https://github.com/nekomeowww/insights-bot/actions/workflows/build.yml/badge.svg" />
-  <img src="https://github.com/nekomeowww/insights-bot/actions/workflows/release-build.yml/badge.svg" />
-  <a href="https://goreportcard.com/badge/github.com/nekomeowww/insights-bot"><img src="https://goreportcard.com/badge/github.com/nekomeowww/insights-bot" /></a>
-  <a href="https://hub.docker.com/r/nekomeowww/insights-bot">
-    <img src="https://img.shields.io/docker/pulls/nekomeowww/insights-bot" />
+  <img src="https://github.com/leohearts/insights-bot-kimichat/actions/workflows/ci.yml/badge.svg">
+  <img src="https://github.com/leohearts/insights-bot-kimichat/actions/workflows/build.yml/badge.svg" />
+  <img src="https://github.com/leohearts/insights-bot-kimichat/actions/workflows/release-build.yml/badge.svg" />
+  <a href="https://goreportcard.com/badge/github.com/leohearts/insights-bot-kimichat"><img src="https://goreportcard.com/badge/github.com/leohearts/insights-bot-kimichat" /></a>
+  <a href="https://hub.docker.com/r/leohearts/insights-bot-kimichat">
+    <img src="https://img.shields.io/docker/pulls/leohearts/insights-bot-kimichat" />
   </a>
-  <a href="https://hub.docker.com/r/nekomeowww/insights-bot">
-    <img src="https://img.shields.io/docker/v/nekomeowww/insights-bot" />
+  <a href="https://hub.docker.com/r/leohearts/insights-bot-kimichat">
+    <img src="https://img.shields.io/docker/v/leohearts/insights-bot-kimichat" />
   </a>
 </p>
 
@@ -157,11 +157,11 @@ A: https://www.example.com
 你将会需要克隆这个仓库并且自己构建二进制文件。
 
 ```shell
-git clone https://github.com/nekomeowww/insights-bot
+git clone https://github.com/leohearts/insights-bot-kimichat
 ```
 
 ```shell
-go build -a -o "build/insights-bot" "github.com/nekomeowww/insights-bot/cmd/insights-bot"
+go build -a -o "build/insights-bot" "github.com/leohearts/insights-bot-kimichat/cmd/insights-bot"
 ```
 
 然后将 `.env.example` 文件复制到 `build` 目录并且重命名为 `.env`，然后填写环境变量。
@@ -182,7 +182,7 @@ $ ./insights-bot
 ### 使用 Docker 运行
 
 ```shell
-docker run -it --rm -e TELEGRAM_BOT_TOKEN=<Telegram Bot API 令牌> -e OPENAI_API_SECRET=<OpenAI API 密钥y> -e DB_CONNECTION_STR="<PostgresSQL 连接 URL>" insights-bot ghcr.io/nekomeowww/insights-bot:latest
+docker run -it --rm -e TELEGRAM_BOT_TOKEN=<Telegram Bot API 令牌> -e OPENAI_API_SECRET=<OpenAI API 密钥y> -e DB_CONNECTION_STR="<PostgresSQL 连接 URL>" insights-bot ghcr.io/leohearts/insights-bot-kimichat:latest
 ```
 
 ### 使用 Docker Compose 运行
@@ -190,14 +190,14 @@ docker run -it --rm -e TELEGRAM_BOT_TOKEN=<Telegram Bot API 令牌> -e OPENAI_AP
 克隆这个项目：
 
 ```shell
-git clone github.com/nekomeowww/insights-bot
+git clone github.com/leohearts/insights-bot-kimichat
 ```
 
 或者只复制或下载必要的`.env.example`和`docker-compose.yml`文件（但只能使用预构建的 Docker 镜像来运行 insights-bot）：
 
 ```shell
-curl -O https://raw.githubusercontent.com/nekomeowww/insights-bot/main/.env.example
-curl -O https://raw.githubusercontent.com/nekomeowww/insights-bot/main/docker-compose.yml
+curl -O https://raw.githubusercontent.com/leohearts/insights-bot-kimichat/main/.env.example
+curl -O https://raw.githubusercontent.com/leohearts/insights-bot-kimichat/main/docker-compose.yml
 ```
 
 通过复制 `.env.example` 文件中的内容来创建 `.env` 文件。`.env` 文件应该放在项目根目录下，与 `docker-compose.yml` 文件同级。
@@ -223,7 +223,7 @@ docker compose --profile local up -d --build
 #### 使用 Go 构建
 
 ```shell
-go build -a -o "release/insights-bot" "github.com/nekomeowww/insights-bot/cmd/insights-bot"
+go build -a -o "release/insights-bot" "github.com/leohearts/insights-bot-kimichat/cmd/insights-bot"
 ```
 
 #### 使用 Docker 构建

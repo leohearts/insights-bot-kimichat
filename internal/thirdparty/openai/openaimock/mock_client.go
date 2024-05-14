@@ -5,7 +5,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/nekomeowww/insights-bot/internal/thirdparty/openai"
+	"github.com/leohearts/insights-bot-kimichat/internal/thirdparty/openai"
 	openaia "github.com/sashabaranov/go-openai"
 )
 

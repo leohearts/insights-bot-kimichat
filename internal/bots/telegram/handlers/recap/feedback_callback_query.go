@@ -3,9 +3,9 @@ package recap
 import (
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 	"github.com/google/uuid"
-	"github.com/nekomeowww/insights-bot/ent/feedbackchathistoriesrecapsreactions"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/types/bot/handlers/recap"
+	"github.com/leohearts/insights-bot-kimichat/ent/feedbackchathistoriesrecapsreactions"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/bot/handlers/recap"
 	"go.uber.org/zap"
 )
 

@@ -17,15 +17,15 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 
-	"github.com/nekomeowww/insights-bot/ent"
-	"github.com/nekomeowww/insights-bot/ent/chathistories"
-	"github.com/nekomeowww/insights-bot/internal/configs"
-	"github.com/nekomeowww/insights-bot/internal/datastore"
-	"github.com/nekomeowww/insights-bot/internal/thirdparty/openai"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/linkprev"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
-	"github.com/nekomeowww/insights-bot/pkg/types/telegram"
+	"github.com/leohearts/insights-bot-kimichat/ent"
+	"github.com/leohearts/insights-bot-kimichat/ent/chathistories"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/internal/datastore"
+	"github.com/leohearts/insights-bot-kimichat/internal/thirdparty/openai"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/linkprev"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/telegram"
 )
 
 type FromPlatform int

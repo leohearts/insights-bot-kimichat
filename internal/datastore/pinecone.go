@@ -4,7 +4,7 @@ import (
 	pinecone "github.com/nekomeowww/go-pinecone"
 	"go.uber.org/fx"
 
-	"github.com/nekomeowww/insights-bot/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
 )
 
 type NewPineconeParam struct {

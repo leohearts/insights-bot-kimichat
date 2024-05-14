@@ -10,9 +10,9 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/nekomeowww/insights-bot/ent/internal"
-	"github.com/nekomeowww/insights-bot/ent/logchathistoriesrecap"
-	"github.com/nekomeowww/insights-bot/ent/predicate"
+	"github.com/leohearts/insights-bot-kimichat/ent/internal"
+	"github.com/leohearts/insights-bot-kimichat/ent/logchathistoriesrecap"
+	"github.com/leohearts/insights-bot-kimichat/ent/predicate"
 )
 
 // LogChatHistoriesRecapUpdate is the builder for updating LogChatHistoriesRecap entities.

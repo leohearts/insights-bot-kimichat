@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/nekomeowww/insights-bot/ent"
+	"github.com/leohearts/insights-bot-kimichat/ent"
 )
 
 // The ChatHistoriesFunc type is an adapter to allow the use of ordinary

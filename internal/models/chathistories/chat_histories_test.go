@@ -12,14 +12,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/nekomeowww/insights-bot/ent"
-	"github.com/nekomeowww/insights-bot/ent/chathistories"
-	"github.com/nekomeowww/insights-bot/internal/configs"
-	"github.com/nekomeowww/insights-bot/internal/datastore"
-	"github.com/nekomeowww/insights-bot/internal/lib"
-	"github.com/nekomeowww/insights-bot/internal/thirdparty/openai"
-	"github.com/nekomeowww/insights-bot/internal/thirdparty/openai/openaimock"
-	"github.com/nekomeowww/insights-bot/pkg/tutils"
+	"github.com/leohearts/insights-bot-kimichat/ent"
+	"github.com/leohearts/insights-bot-kimichat/ent/chathistories"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/internal/datastore"
+	"github.com/leohearts/insights-bot-kimichat/internal/lib"
+	"github.com/leohearts/insights-bot-kimichat/internal/thirdparty/openai"
+	"github.com/leohearts/insights-bot-kimichat/internal/thirdparty/openai/openaimock"
+	"github.com/leohearts/insights-bot-kimichat/pkg/tutils"
 	"github.com/nekomeowww/xo"
 )
 
@@ -73,7 +73,7 @@ func TestExtractTextFromMessage(t *testing.T) {
 			From:      &tgbotapi.User{ID: 23333333},
 			Date:      1683386000,
 			Chat:      &tgbotapi.Chat{ID: 0xc0001145e4},
-			Text:      "看看这些链接：https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters/#Extended-Grapheme-Clusters 、https://www.youtube.com/watch?v=outcGtbnMuQ https://github.com/nekomeowww/insights-bot 还有 这个，和这个 https://twitter.com/GoogleDevEurope/status/1640667303158198272",
+			Text:      "看看这些链接：https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters/#Extended-Grapheme-Clusters 、https://www.youtube.com/watch?v=outcGtbnMuQ https://github.com/leohearts/insights-bot-kimichat 还有 这个，和这个 https://twitter.com/GoogleDevEurope/status/1640667303158198272",
 			Entities: []tgbotapi.MessageEntity{
 				{Type: "url", Offset: 7, Length: 127, URL: "", Language: ""},
 				{Type: "url", Offset: 136, Length: 43, URL: "", Language: ""},
@@ -93,7 +93,7 @@ func TestExtractTextFromMessage(t *testing.T) {
 			}, nil
 		}
 
-		expect := "看看这些链接：[Documentation](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters/#Extended-Grapheme-Clusters) 、[GPT-4 Developer Livestream - YouTube](https://www.youtube.com/watch?v=outcGtbnMuQ) [GitHub - nekomeowww/insights-bot: A bot works with OpenAI GPT models to provide insights for your info flows.](https://github.com/nekomeowww/insights-bot) 还有 [这个](https://matters.town/@1435Club/322889-这几天-web3在大理发生了什么)，和这个 https://twitter.com/GoogleDevEurope/status/1640667303158198272"
+		expect := "看看这些链接：[Documentation](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters/#Extended-Grapheme-Clusters) 、[GPT-4 Developer Livestream - YouTube](https://www.youtube.com/watch?v=outcGtbnMuQ) [GitHub - leohearts/insights-bot-kimichat: A bot works with OpenAI GPT models to provide insights for your info flows.](https://github.com/leohearts/insights-bot-kimichat) 还有 [这个](https://matters.town/@1435Club/322889-这几天-web3在大理发生了什么)，和这个 https://twitter.com/GoogleDevEurope/status/1640667303158198272"
 		assert.Equal(expect, model.ExtractTextFromMessage(message))
 	})
 }

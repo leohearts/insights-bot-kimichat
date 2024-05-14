@@ -2,16 +2,16 @@ package listeners
 
 import (
 	"fmt"
-	"github.com/nekomeowww/insights-bot/pkg/i18n"
+	"github.com/leohearts/insights-bot-kimichat/pkg/i18n"
 	"strings"
 
 	"github.com/disgoorg/disgo/discord"
 	"github.com/disgoorg/disgo/events"
-	"github.com/nekomeowww/insights-bot/internal/services/smr"
-	"github.com/nekomeowww/insights-bot/internal/services/smr/smrqueue"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
-	"github.com/nekomeowww/insights-bot/pkg/types/bot"
-	types "github.com/nekomeowww/insights-bot/pkg/types/smr"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/smr"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/smr/smrqueue"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/bot"
+	types "github.com/leohearts/insights-bot-kimichat/pkg/types/smr"
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 )

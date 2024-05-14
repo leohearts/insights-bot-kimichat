@@ -34,8 +34,8 @@ jobs:
       - name: Create image tags
         id: dockerinfo
         run: |
-          echo "taglatest=${{ github.repository_owner }}/insights-bot:latest" >> $GITHUB_OUTPUT
-          echo "tag=${{ github.repository_owner }}/insights-bot:${{ steps.version.outputs.version }}" >> $GITHUB_OUTPUT
+          echo "taglatest=${{ github.repository_owner }}/insights-bot-kimichat:latest" >> $GITHUB_OUTPUT
+          echo "tag=${{ github.repository_owner }}/insights-bot-kimichat:${{ steps.version.outputs.version }}" >> $GITHUB_OUTPUT
 
       - name: Build and Push
         uses: docker/build-push-action@v4
@@ -76,8 +76,8 @@ jobs:
       - name: Create image tags
         id: dockerinfo
         run: |
-          echo "taglatest=ghcr.io/${{ github.repository_owner }}/insights-bot:latest" >> $GITHUB_OUTPUT
-          echo "tag=ghcr.io/${{ github.repository_owner }}/insights-bot:${{ steps.version.outputs.version }}" >> $GITHUB_OUTPUT
+          echo "taglatest=ghcr.io/${{ github.repository_owner }}/insights-bot-kimichat:latest" >> $GITHUB_OUTPUT
+          echo "tag=ghcr.io/${{ github.repository_owner }}/insights-bot-kimichat:${{ steps.version.outputs.version }}" >> $GITHUB_OUTPUT
 
       - name: Build and Push
         uses: docker/build-push-action@v4

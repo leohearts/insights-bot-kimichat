@@ -10,7 +10,7 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/nekomeowww/insights-bot/ent/metricopenaichatcompletiontokenusage"
+	"github.com/leohearts/insights-bot-kimichat/ent/metricopenaichatcompletiontokenusage"
 )
 
 // MetricOpenAIChatCompletionTokenUsageCreate is the builder for creating a MetricOpenAIChatCompletionTokenUsage entity.

@@ -3,7 +3,7 @@ package tgbot
 import (
 	"fmt"
 
-	"github.com/nekomeowww/insights-bot/pkg/types/telegram"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/telegram"
 	"github.com/samber/lo"
 )
 

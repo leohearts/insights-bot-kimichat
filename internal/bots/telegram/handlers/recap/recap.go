@@ -3,7 +3,7 @@ package recap
 import (
 	"fmt"
 
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
 	"github.com/samber/lo"
 	"go.uber.org/fx"
 )

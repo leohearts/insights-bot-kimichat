@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/nekomeowww/insights-bot/internal/datastore"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
-	types "github.com/nekomeowww/insights-bot/pkg/types/smr"
+	"github.com/leohearts/insights-bot-kimichat/internal/datastore"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
+	types "github.com/leohearts/insights-bot-kimichat/pkg/types/smr"
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 )

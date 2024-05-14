@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nekomeowww/insights-bot/pkg/i18n"
-	"github.com/nekomeowww/insights-bot/pkg/types/telegram"
+	"github.com/leohearts/insights-bot-kimichat/pkg/i18n"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/telegram"
 	"github.com/samber/lo"
 )
 

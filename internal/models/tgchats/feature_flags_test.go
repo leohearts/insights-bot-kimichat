@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/nekomeowww/insights-bot/ent"
-	"github.com/nekomeowww/insights-bot/ent/telegramchatfeatureflags"
-	"github.com/nekomeowww/insights-bot/pkg/types/telegram"
+	"github.com/leohearts/insights-bot-kimichat/ent"
+	"github.com/leohearts/insights-bot-kimichat/ent/telegramchatfeatureflags"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/telegram"
 	"github.com/nekomeowww/xo"
 	"github.com/samber/lo"
 	"github.com/stretchr/testify/assert"

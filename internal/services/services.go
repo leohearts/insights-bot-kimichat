@@ -1,10 +1,10 @@
 package services
 
 import (
-	"github.com/nekomeowww/insights-bot/internal/services/autorecap"
-	"github.com/nekomeowww/insights-bot/internal/services/health"
-	"github.com/nekomeowww/insights-bot/internal/services/pprof"
-	"github.com/nekomeowww/insights-bot/internal/services/smr"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/autorecap"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/health"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/pprof"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/smr"
 	"go.uber.org/fx"
 )
 

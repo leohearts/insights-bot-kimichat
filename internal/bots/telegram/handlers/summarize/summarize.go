@@ -1,11 +1,11 @@
 package summarize
 
 import (
-	"github.com/nekomeowww/insights-bot/internal/models/smr"
-	"github.com/nekomeowww/insights-bot/internal/services/smr/smrqueue"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/i18n"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/smr"
+	"github.com/leohearts/insights-bot-kimichat/internal/services/smr/smrqueue"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/i18n"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
 	"go.uber.org/fx"
 )
 

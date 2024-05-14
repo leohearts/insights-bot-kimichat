@@ -9,7 +9,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/nekomeowww/insights-bot/ent/feedbackchathistoriesrecapsreactions"
+	"github.com/leohearts/insights-bot-kimichat/ent/feedbackchathistoriesrecapsreactions"
 )
 
 // FeedbackChatHistoriesRecapsReactions is the model entity for the FeedbackChatHistoriesRecapsReactions schema.

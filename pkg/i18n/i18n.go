@@ -9,7 +9,7 @@ import (
 	"golang.org/x/text/language"
 	yaml "gopkg.in/yaml.v3"
 
-	"github.com/nekomeowww/insights-bot/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
 )
 
 type M = map[string]any

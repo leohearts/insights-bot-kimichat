@@ -8,12 +8,12 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 
-	"github.com/nekomeowww/insights-bot/internal/models/chathistories"
-	"github.com/nekomeowww/insights-bot/internal/models/logs"
-	"github.com/nekomeowww/insights-bot/internal/models/tgchats"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/i18n"
-	"github.com/nekomeowww/insights-bot/pkg/logger"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/chathistories"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/logs"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/tgchats"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/i18n"
+	"github.com/leohearts/insights-bot-kimichat/pkg/logger"
 )
 
 func NewModules() fx.Option {

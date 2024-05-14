@@ -8,10 +8,10 @@ import (
 	"github.com/google/uuid"
 	"github.com/samber/lo"
 
-	"github.com/nekomeowww/insights-bot/ent"
-	"github.com/nekomeowww/insights-bot/ent/feedbackchathistoriesrecapsreactions"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/types/bot/handlers/recap"
+	"github.com/leohearts/insights-bot-kimichat/ent"
+	"github.com/leohearts/insights-bot-kimichat/ent/feedbackchathistoriesrecapsreactions"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/bot/handlers/recap"
 )
 
 type FeedbackChatHistoriesRecapsReactionsCounts struct {

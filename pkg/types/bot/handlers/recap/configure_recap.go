@@ -1,9 +1,9 @@
 package recap
 
 import (
-	"github.com/nekomeowww/insights-bot/ent/feedbackchathistoriesrecapsreactions"
-	"github.com/nekomeowww/insights-bot/ent/feedbacksummarizationsreactions"
-	"github.com/nekomeowww/insights-bot/pkg/types/tgchat"
+	"github.com/leohearts/insights-bot-kimichat/ent/feedbackchathistoriesrecapsreactions"
+	"github.com/leohearts/insights-bot-kimichat/ent/feedbacksummarizationsreactions"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/tgchat"
 )
 
 type ConfigureRecapToggleActionData struct {

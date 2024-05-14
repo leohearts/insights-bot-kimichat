@@ -3,7 +3,7 @@ package smr
 import (
 	"sync"
 
-	"github.com/nekomeowww/insights-bot/pkg/types/bot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/bot"
 )
 
 type TaskInfo struct {

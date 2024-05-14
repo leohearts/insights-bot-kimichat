@@ -5,7 +5,7 @@ package chathistories
 import (
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/nekomeowww/insights-bot/ent/predicate"
+	"github.com/leohearts/insights-bot-kimichat/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

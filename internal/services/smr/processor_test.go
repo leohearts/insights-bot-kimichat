@@ -3,13 +3,13 @@ package smr
 import (
 	"testing"
 
-	"github.com/nekomeowww/insights-bot/internal/configs"
-	"github.com/nekomeowww/insights-bot/internal/datastore"
-	"github.com/nekomeowww/insights-bot/internal/lib"
-	"github.com/nekomeowww/insights-bot/pkg/tutils"
-	"github.com/nekomeowww/insights-bot/pkg/types/bot"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/internal/datastore"
+	"github.com/leohearts/insights-bot-kimichat/internal/lib"
+	"github.com/leohearts/insights-bot-kimichat/pkg/tutils"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/bot"
 
-	"github.com/nekomeowww/insights-bot/internal/models/smr"
+	"github.com/leohearts/insights-bot-kimichat/internal/models/smr"
 	"github.com/stretchr/testify/assert"
 )
 

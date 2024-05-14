@@ -24,7 +24,7 @@ jobs:
       - name: Create image tags
         id: dockerinfo
         run: |
-          echo "tagunstable=${{ github.repository_owner }}/insights-bot:unstable" >> $GITHUB_OUTPUT
+          echo "tagunstable=${{ github.repository_owner }}/insights-bot-kimichat:unstable" >> $GITHUB_OUTPUT
 
       - name: Build and Push
         uses: docker/build-push-action@v4
@@ -57,7 +57,7 @@ jobs:
       - name: Create image tags
         id: dockerinfo
         run: |
-          echo "tagunstable=ghcr.io/${{ github.repository_owner }}/insights-bot:unstable" >> $GITHUB_OUTPUT
+          echo "tagunstable=ghcr.io/${{ github.repository_owner }}/insights-bot-kimichat:unstable" >> $GITHUB_OUTPUT
 
       - name: Build and Push
         uses: docker/build-push-action@v4

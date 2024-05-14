@@ -3,11 +3,11 @@ package handlers
 import (
 	"go.uber.org/fx"
 
-	"github.com/nekomeowww/insights-bot/internal/bots/telegram/handlers/chatmigrate"
-	"github.com/nekomeowww/insights-bot/internal/bots/telegram/handlers/recap"
-	"github.com/nekomeowww/insights-bot/internal/bots/telegram/handlers/summarize"
-	"github.com/nekomeowww/insights-bot/internal/bots/telegram/handlers/welcome"
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/internal/bots/telegram/handlers/chatmigrate"
+	"github.com/leohearts/insights-bot-kimichat/internal/bots/telegram/handlers/recap"
+	"github.com/leohearts/insights-bot-kimichat/internal/bots/telegram/handlers/summarize"
+	"github.com/leohearts/insights-bot-kimichat/internal/bots/telegram/handlers/welcome"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
 )
 
 func NewModules() fx.Option {

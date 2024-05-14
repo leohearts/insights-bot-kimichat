@@ -10,7 +10,7 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/nekomeowww/insights-bot/ent/slackoauthcredentials"
+	"github.com/leohearts/insights-bot-kimichat/ent/slackoauthcredentials"
 )
 
 // SlackOAuthCredentialsCreate is the builder for creating a SlackOAuthCredentials entity.

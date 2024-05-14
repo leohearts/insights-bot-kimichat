@@ -10,7 +10,7 @@ services:
   insights_bot:
     profiles:
       - hub
-    image: ghcr.io/leohearts/insights-bot:latest
+    image: ghcr.io/leohearts/insights-bot-kimichat:latest
     restart: always
     environment:
       - TIMEZONE_SHIFT_SECONDS

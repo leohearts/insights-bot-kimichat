@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/nekomeowww/insights-bot/pkg/tutils"
+	"github.com/leohearts/insights-bot-kimichat/pkg/tutils"
 	"github.com/slack-go/slack"
 	"github.com/stretchr/testify/assert"
 )

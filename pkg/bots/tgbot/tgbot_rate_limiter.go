@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/nekomeowww/insights-bot/pkg/types/bot"
-	"github.com/nekomeowww/insights-bot/pkg/types/redis"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/bot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/redis"
 	"github.com/redis/rueidis"
 )
 

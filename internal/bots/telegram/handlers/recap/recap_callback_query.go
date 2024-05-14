@@ -9,10 +9,10 @@ import (
 	"github.com/samber/lo"
 	"go.uber.org/zap"
 
-	"github.com/nekomeowww/insights-bot/pkg/bots/tgbot"
-	"github.com/nekomeowww/insights-bot/pkg/types/bot/handlers/recap"
-	"github.com/nekomeowww/insights-bot/pkg/types/telegram"
-	"github.com/nekomeowww/insights-bot/pkg/types/tgchat"
+	"github.com/leohearts/insights-bot-kimichat/pkg/bots/tgbot"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/bot/handlers/recap"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/telegram"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/tgchat"
 )
 
 func (h *CallbackQueryHandler) handleCallbackQuerySelectHours(c *tgbot.Context) (tgbot.Response, error) {

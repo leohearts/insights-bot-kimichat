@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/nekomeowww/insights-bot/pkg/types/redis"
+	"github.com/leohearts/insights-bot-kimichat/pkg/types/redis"
 	"github.com/nekomeowww/xo"
 	"github.com/redis/rueidis"
 	"github.com/stretchr/testify/assert"

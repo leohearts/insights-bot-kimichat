@@ -10,23 +10,23 @@ import (
 	"reflect"
 
 	"github.com/google/uuid"
-	"github.com/nekomeowww/insights-bot/ent/migrate"
+	"github.com/leohearts/insights-bot-kimichat/ent/migrate"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
-	"github.com/nekomeowww/insights-bot/ent/chathistories"
-	"github.com/nekomeowww/insights-bot/ent/feedbackchathistoriesrecapsreactions"
-	"github.com/nekomeowww/insights-bot/ent/feedbacksummarizationsreactions"
-	"github.com/nekomeowww/insights-bot/ent/logchathistoriesrecap"
-	"github.com/nekomeowww/insights-bot/ent/logsummarizations"
-	"github.com/nekomeowww/insights-bot/ent/metricopenaichatcompletiontokenusage"
-	"github.com/nekomeowww/insights-bot/ent/slackoauthcredentials"
-	"github.com/nekomeowww/insights-bot/ent/telegramchatautorecapssubscribers"
-	"github.com/nekomeowww/insights-bot/ent/telegramchatfeatureflags"
-	"github.com/nekomeowww/insights-bot/ent/telegramchatrecapsoptions"
+	"github.com/leohearts/insights-bot-kimichat/ent/chathistories"
+	"github.com/leohearts/insights-bot-kimichat/ent/feedbackchathistoriesrecapsreactions"
+	"github.com/leohearts/insights-bot-kimichat/ent/feedbacksummarizationsreactions"
+	"github.com/leohearts/insights-bot-kimichat/ent/logchathistoriesrecap"
+	"github.com/leohearts/insights-bot-kimichat/ent/logsummarizations"
+	"github.com/leohearts/insights-bot-kimichat/ent/metricopenaichatcompletiontokenusage"
+	"github.com/leohearts/insights-bot-kimichat/ent/slackoauthcredentials"
+	"github.com/leohearts/insights-bot-kimichat/ent/telegramchatautorecapssubscribers"
+	"github.com/leohearts/insights-bot-kimichat/ent/telegramchatfeatureflags"
+	"github.com/leohearts/insights-bot-kimichat/ent/telegramchatrecapsoptions"
 
-	"github.com/nekomeowww/insights-bot/ent/internal"
+	"github.com/leohearts/insights-bot-kimichat/ent/internal"
 )
 
 // Client is the client that holds all ent builders.

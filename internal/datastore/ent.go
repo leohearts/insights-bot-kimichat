@@ -5,8 +5,8 @@ import (
 
 	"entgo.io/ent/dialect"
 	_ "github.com/lib/pq"
-	"github.com/nekomeowww/insights-bot/ent"
-	"github.com/nekomeowww/insights-bot/internal/configs"
+	"github.com/leohearts/insights-bot-kimichat/ent"
+	"github.com/leohearts/insights-bot-kimichat/internal/configs"
 	"go.uber.org/fx"
 )
 
